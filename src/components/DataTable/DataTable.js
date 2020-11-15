@@ -20,7 +20,7 @@ class DataTable extends Component {
     order: this.props.order || [],
     pages: [],
     rows: this.props.data.rows || [],
-    search: '',
+    search: this.props.searchValue || '',
     searchSelect: '',
     sorted: false,
     translateScrollHead: 0,
